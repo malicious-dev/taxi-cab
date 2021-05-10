@@ -269,7 +269,7 @@ i {
   cursor: pointer;
   border-radius: 10px 10px 10px 10px;
   /* font-weight: bold; */
-  position: relative;S
+  position: relative;
   animation: button-con 5s 1;
   transition: 0.7s;
   font-family: 'Ubuntu', sans-serif;
@@ -321,18 +321,17 @@ i {
   height: 550px;
   background-color: whitesmoke;
   padding: 2%;
-  /* position: relative; */
-  /* margin-top: -50px; */
-  /* animation: contact 3s 1; */
+  position: relative; 
+  animation: contact 3s 1;
 }
 
-/* @keyframes contact {
+@keyframes contact {
   0% {
-    margin: -50px; */
-    /* overflow: hidden; */
-    /* opacity: 0;
+    margin: -50px; 
+    overflow: hidden;
+     opacity: 0;
   }
-} */
+}
 
 .contact-head1 {
   box-shadow: rgba(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
@@ -350,13 +349,16 @@ i {
   font-weight: bold;
 }
 
-@media  (max-width: 360px) {
+@media  (max-width: 1200px) {
 
   .info {
-    margin-top:90%;
+    margin-top:5%;
+    /* position: absolute; */
+
   }
   .submit {
-    margin-top: 10%;
+    margin-top: 5%;
+    /* position: relative; */
   }
 
 }
