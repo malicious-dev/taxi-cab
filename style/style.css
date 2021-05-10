@@ -335,7 +335,9 @@ i {
 
 .contact-head1 {
   box-shadow: rgba(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
-  padding: 1%;
+  padding: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .contact-head2 {
@@ -343,24 +345,58 @@ i {
 }
 
 .info {
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  background-color: rgb(9, 139, 245);
   padding: 2%;
   color: black;
   font-weight: bold;
+}
+.info:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 @media  (max-width: 1200px) {
 
   .info {
-    margin-top:5%;
+    margin-top: 5%;
     /* position: absolute; */
-
+    padding: 5%;
   }
   .submit {
     margin-top: 5%;
     /* position: relative; */
   }
+  .contact-head1 {
+    padding: 2%;
+    margin-top: 2%;
+  }
 
+}
+
+.card {
+  box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  /* border-radius: 0px 0px 10px 10px; */
+  background-color: white;
+  transition: 0.5s;
+}
+.card:hover {
+  border-radius: 20px 20px 20px 20px;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+
+.profile {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
 }
 
 
