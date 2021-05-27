@@ -32,3 +32,5 @@ function validateForm() {
   }
   document.querySelector('.status').innerHTML = "Sending...";
 }
+
+// ScrollReveal({ duration: 1000 })
